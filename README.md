@@ -1,5 +1,6 @@
 # ClosetPairOfPoints
 "Introduction to Java Programming Comprehensive version 10th Edition" by Y. Daniel Liang
+
 Problem 22.7(Closest pair of points) Section 22.8 introduced an algorithm for finding the closest pair of points using a divide-and-conquer approach. Implement the algorithm to meet the following requirements:
 + Define the classes Point and CompareY in the same way as in Programming Exercise 20.4.
 + Define a class named Pair with the data fields p1 and p2 to represent two points, and a method named getDistance() that returns the distance between the two points.
