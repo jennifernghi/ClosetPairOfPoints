@@ -9,17 +9,9 @@ Problem 22.7(Closest pair of points) Section 22.8 introduced an algorithm for fi
 public static Pair getClosestPair(double[][] points)
 /** Return the distance of the closest pair of points */
 public static Pair getClosestPair(Point[] points)
-             /** Return the distance of the closest pair of points
-               * in pointsOrderedOnX[low..high]. This is a recursive
-               * method. pointsOrderedOnX and pointsOrderedOnY are
-               * not changed in the subsequent recursive calls.
-               */
+/** Return the distance of the closest pair of points in pointsOrderedOnX[low..high]. This is a recursive method. pointsOrderedOnX and pointsOrderedOnY are not changed in the subsequent recursive calls. */
 public static Pair distance(Point[] pointsOrderedOnX, int low, int high, Point[] pointsOrderedOnY)
-   Enter a series of numbers ending with 0:
-244888824 40
-The longest same number sequence starts at index 3 with 4 values of 8
-        
-Programming Exercises 855 /** Compute the distance between two points p1 and p2 */
+   /** Compute the distance between two points p1 and p2 */
 public static double distance(Point p1, Point p2)
 /** Compute the distance between points (x1, y1) and (x2, y2) */
 public static double distance(double x1, double y1, double x2, double y2)
