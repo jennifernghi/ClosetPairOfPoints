@@ -5,6 +5,7 @@ Problem 22.7(Closest pair of points) Section 22.8 introduced an algorithm for fi
 + Define the classes Point and CompareY in the same way as in Programming Exercise 20.4.
 + Define a class named Pair with the data fields p1 and p2 to represent two points, and a method named getDistance() that returns the distance between the two points.
 + Implement the following methods:
+
 /** Return the distance of the closest pair of points */
 
 public static Pair getClosestPair(double[ ][ ] points)
